@@ -1,0 +1,176 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	font-family: 'GmarketSansBold';
+}
+.form-label{
+	font-family: 'GmarketSansMedium'
+}
+.form-control{
+	font-family: 'GmarketSansLight'
+}
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+
+h4 {
+  text-align: center;
+}
+
+#back {
+
+  all: unset;
+
+}
+
+#backImg {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  /* background-color: black; */
+}
+
+main {
+  /* background-color: black; */
+  /* color: white; */
+}
+
+li {
+  list-style: none;
+}
+
+/* #thumbnail,
+#profileImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 70%;
+  overflow: hidden;
+} */
+
+#image {
+  display: none;
+}
+
+.image-preview {
+  width: 90px;
+  height: 90px;
+}
+
+#image_container {
+  text-align: center;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#top2 {
+  margin-top: 30px;
+}
+
+h5 {
+  text-align: center;
+}
+
+#next {
+  margin-top: 25%;
+}
+
+#profileImg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  display: inline;
+  margin-left: 27%;
+}
+.image-container{
+	text-align : center;
+}
+#preview-image{
+	width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+#update{
+	display : none;
+}
+#updateBtn{
+	display : none;
+}

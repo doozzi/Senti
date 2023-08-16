@@ -1,0 +1,272 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-family: 'GmarketSansBold';
+}
+.swal2-html-container{
+	font-family: 'GmarketSansMedium';
+}
+button{
+	font-family: 'GmarketSansMedium';
+}
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+
+#thumbnail {
+	width: 342px;
+	height: 342px;
+	border-radius: 100px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+	font-size: 90%;
+}
+
+.hidden {
+	display: none;
+}
+#btnLow{
+	width: 144px;
+	font-family: 'GmarketSansMedium';
+}
+#btnHigh{
+	width: 144px;
+	font-family: 'GmarketSansMedium';
+}
+.vocalTestLow{
+	margin-top : 0px;
+	border-radius: 50px;
+}
+.vocalTestHigh{
+	margin-top : 0px;
+	border-radius: 50px;
+}
+#vocalTestLowVideo {
+	width: 342px;
+	height: 207px;
+}
+
+#vocalTestHighVideo {
+	width: 342px;
+	height: 207px;
+}
+
+.controls__btns {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.controls__btns button {
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 17px;
+}
+
+.controls__btns button:active {
+	transform: scale(0.98);
+}
+
+select {
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-weight: 800;
+	width: 162px;
+	font-size: 17px;
+}
+.userInfo{
+	margin-top:10px;
+}
+#select{
+	text-align : center;
+	font-family: 'GmarketSansMedium';
+}
+#checkbox{
+	text-align : center;
+	margin-top: 29px;
+}
+.btn{
+	margin-left: 98px;
+	margin-top: 38px;
+}
+.record{
+	text-align: center;
+	margin-top: 21px;
+}
+#ballad{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#soul{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#hiphop{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#dance{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#rock{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#indi{
+	all: unset;
+	cursor: pointer;
+	background-color: white;
+	padding: 5px 0px;
+	width: 80px;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px
+		rgba(0, 0, 0, 0.08);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.genre{
+	display:flex;
+	font-family: 'GmarketSansMedium';
+}

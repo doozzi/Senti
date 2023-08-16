@@ -1,0 +1,173 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-family: 'GmarketSansMedium';
+}
+span{
+	font-family: 'GmarketSansLight';
+}
+input{
+	font-family: 'GmarketSansLight';
+}
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout {
+	/* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+
+.nav-link {
+	font-size: 90%;
+}
+
+.btn-close {
+	margin-left: 3%;
+}
+
+#playListThumbNail {
+	width: 136px;
+	float: left;
+	margin: 0px;
+	margin-left: 18px;
+}
+
+/* #playListTitle {
+    margin-top: 10%;
+    margin-left: 5%;
+} */
+
+/* #playListNick {
+    margin-top: 9%;
+    margin-left: 2%;
+} */
+#plus {
+	width: 10%;
+	height: 30%;
+}
+
+ul {
+	list-style: none;
+}
+
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+
+#main {
+	display: contents;
+}
+
+/* a태그 파란색 링크 제거 */
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+button{
+	all: unset;
+	margin-right:15px;
+}
+#playListTitle{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#playListTitleUpdateInput{
+	width: 150px;
+}
+.hidden{
+	display:none;
+}
+#musicPlus:link{
+	color:black;
+	text-decoration: none;
+} 
+#musicPlus:visited{
+	color:black;
+	text-decoration: none;
+} 
+#musicPlus:hover{
+	color:black;
+	text-decoration: underline;
+}
+#btnUpdate{
+	color:black;
+}
+#btnDelete{
+	color:black;
+}
+#albumimg{
+	height: 254px;
+}
+.music{
+	width: 390px;
+    height: 75px;
+}
+.bi-arrow-left{
+	margin-left: 20px;
+}
+.playListInfo{
+	margin-left: 10px;
+	display: inline;
+}
+#musicDelete{
+	margin-top: 7px;
+    margin-right: 9px
+}
+

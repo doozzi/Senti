@@ -1,0 +1,168 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong{
+	font-family: 'GmarketSansMedium';
+}
+span{
+	font-family: 'GmarketSansLight';
+}
+
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+.main{
+	
+}
+.nav-link {
+	font-size: 90%;
+}
+/* #profileImg {
+    width: 90px;
+    height: 90px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin-left: 30px;
+    float: left;
+  } */
+#nick {
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'GmarketSansMedium';
+}
+
+#playList1{
+	width: 180.5px;
+    height: 242.5px;
+    display: inline-block;
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+#plus {
+	width: 10%;
+	height: 30%;
+}
+
+#thumbnail {
+	width: 10%;
+	height: 30%;
+}
+
+#delete {
+	margin-left: 30%;
+}
+
+#playListTitle {
+	margin-left: 5%;
+}
+
+button {
+	all: unset;
+}
+
+/* 플레이리스트 css */
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	margin-left : 5px;
+	margin-top : 5px;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+img {
+	width: 169.5px;
+	height: 169.5px;
+}
+
+#createPlayList {
+	float: left;
+	height: 38px;
+	margin-left: 10px;
+	font-family: 'GmarketSansLight';
+}
+
+#playListSubmit {
+	margin-left: 10px;
+	font-family: 'GmarketSansLight';
+}
+a {
+	color: gray;
+	text-decoration: none;
+}
+#playListInfo{
+	text-align: center;
+    margin-top: 10px;
+}
+.nav fixed-bottom{
+	font-size: 15px;
+}

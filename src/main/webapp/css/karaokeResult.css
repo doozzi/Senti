@@ -1,0 +1,121 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-family: 'GmarketSansMedium';
+}
+p{
+	font-family: 'GmarketSansLight';
+}
+span{
+	font-family: 'GmarketSansLight';
+}
+.btn{
+	font-family: 'GmarketSansMedium';
+}
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+.card{
+	margin: auto;
+	text-align: center;
+}
+.result{
+	text-align : center;
+}
+.result span{
+	font-size: 32px;
+}
+#circle {
+  width : 230px;
+  height : 230px;
+  border-radius: 50%;
+  background-color: #2b5876;
+  margin : 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+#point{
+	line-height: 254px;
+    font-size: 130px;
+    color : white;
+    font-family: 'GmarketSansBold';
+}
+.btn{
+	width: 197px;
+    margin: auto;
+}
+.flame{
+	text-align : center;
+	margin-top: 65px;
+}
+h5{
+	font-size: 2.25rem;
+}
+#singer{
+	font-size: 1.25rem;
+}

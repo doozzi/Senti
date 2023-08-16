@@ -1,0 +1,145 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	font-family: 'GmarketSansMedium';
+}
+h2{
+	font-family: 'GmarketSansMedium';
+}
+strong{
+	font-family: 'GmarketSansMedium';
+}
+span{
+	font-family: 'GmarketSansLight';
+}
+button{
+	font-family: 'GmarketSansBold';
+}
+
+/* fadein css */
+body {
+	animation: fadeout 3s;
+	-webkit-animation: fadeout 3s;
+}
+
+@keyframes fadeout {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */ from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+body{
+	background-color: aliceblue;
+}
+#top {
+	height: 60px;
+}
+
+#pitch {
+	float: right;
+	font-family: 'GmarketSansBold';
+	color: white;
+}
+
+#senti {
+	float: left;
+	font-family: 'GmarketSansBold';
+	color: white;
+	font-size: 28px;
+}
+
+#logo {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 5%;
+}
+
+#thumbnail {
+	width: 342px;
+	height: 342px;
+	border-radius: 100px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+	font-size: 90%;
+}
+
+.hidden {
+	display: none;
+}
+.vocalTestLow{
+	margin-top : 0px;
+	border-radius: 50px;
+}
+.vocalTestHigh{
+	margin-top : 0px;
+	border-radius: 50px;
+}
+#vocalTestLowVideo {
+	width: 342px;
+	margin-left: 9px;
+	height: 250px;
+}
+
+#vocalTestHighVideo {
+	width: 342px;
+	margin-left: 9px;
+	height: 250px;
+}
+.vocalTestResult{
+	 text-align: center;
+	 margin-top: 0px;
+}
+#Result > h1{
+	font-size: 36px;
+}
+#music{
+	width: 370px;
+    height: 75px;
+}
+#musicAdd{
+	width: 40px;
+	height: 40px;
+}
+.musicRecom{
+	margin-top:0px;
+}
+a {
+	color: gray;
+	text-decoration: none;
+}
+.musicDelete{
+	all: unset;
+	margin-top: 7px;
+    margin-right: 9px
+}

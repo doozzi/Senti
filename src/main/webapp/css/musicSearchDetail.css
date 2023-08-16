@@ -1,0 +1,133 @@
+/*  font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-family: 'GmarketSansMedium';
+}
+p{
+	font-family: 'GmarketSansLight';
+}
+.btn{
+	font-family: 'GmarketSansMedium';
+}
+h5{
+	font-family: 'GmarketSansMedium';
+}
+.modal-body{
+	font-family: 'GmarketSansLight';
+}
+h2{
+    font-size : 19px;
+    font-family: 'GmarketSansBold';
+}
+
+/* audio 색상  */
+audio::-webkit-media-controls-panel {
+    background-color:  white;
+}
+
+/* fadein css */
+body{
+    animation: fadeout 3s;
+    -webkit-animation: fadeout 3s;
+  }
+
+  @keyframes fadeout {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+body{
+	background-color: aliceblue;
+}
+
+#top{
+    height: 60px;
+}
+#pitch{
+    float: right;
+    font-family: 'GmarketSansBold';
+    color: white;
+}
+#senti{
+    float: left;
+    font-family: 'GmarketSansBold';
+    color: white;
+    font-size: 28px;
+}
+#logo{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5%;
+}
+.nav-link{
+    font-size: 90%;
+}
+#musicSearch{
+    margin-left: 12%;
+    border-radius: 8px;
+}
+#musicSearchInput {
+	float: left;
+	width: 57%;
+	height: 38px;
+}
+.card{
+    margin-left: 12%;
+    text-align: center;
+}
+audio{
+    display: block;
+    margin-left: -8px;
+    margin-bottom: -55px;
+}
+.hidden{
+    display: none;
+}
+.btn-close{
+    margin-left: 30px;
+}
+
+#albumimg{
+	height: 254px;
+}
+#music{
+	width: 340px;
+    height: 75px;
+}
+#musicAdd{
+	width: 40px;
+	height: 40px;
+}
+#back{
+	margin-left: 21px;
+}
