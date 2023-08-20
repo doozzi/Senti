@@ -8,4 +8,9 @@
 - 'Java 8', 'Python'
 - **IDE** : Eclipse, VS Code, Jupyter Notebook
 - **Framework** : Spring MVC, Mybatis, Flask
-- **Database** : Oracle 
+- **Database** : Oracle
+- **사용 API** : Spotify API, https://developer.spotify.com/documentation/web-api/tutorials/getting-started
+
+## 유스케이스 
+
+## DB Schema
