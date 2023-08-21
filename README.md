@@ -13,4 +13,6 @@
 
 ## 유스케이스 
 
-## DB Schema
+
+## ERD
+![ER_Diagram](https://github.com/doozzi/Senti/assets/102228584/db466b51-bf84-428d-b2ab-bd41b28fd894)
